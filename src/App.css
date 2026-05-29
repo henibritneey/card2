@@ -1,0 +1,38 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#e9eef5;
+  font-family:Arial, sans-serif;
+}
+
+/* Main App Container */
+
+.app{
+  min-height:100vh;
+  padding:40px 20px;
+}
+
+/* Heading */
+
+.app h1{
+  text-align:center;
+  color:#0f4c81;
+  margin-bottom:40px;
+  font-size:40px;
+  letter-spacing:1px;
+}
+
+/* Cards Container */
+
+.card-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:30px;
+}

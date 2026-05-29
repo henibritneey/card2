@@ -1,0 +1,96 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:Arial, sans-serif;
+  background:#f5f1f1;
+}
+
+.wrapper{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:40px 20px;
+  background:linear-gradient(to right,#eef2f7,#dfe9f3);
+}
+
+.card{
+  width:700px;
+  background:rgb(255, 255, 255);
+  border-radius:15px;
+  padding:25px;
+  
+  box-shadow:
+    0 10px 30px rgb(255, 44, 44),
+    0 5px 15px rgb(255, 25, 25);
+
+  transition:0.3s;
+}
+
+
+.card:hover{
+  transform:translateY(-5px);
+
+  box-shadow:
+    0 15px 35px rgb(14, 13, 13),
+    0 8px 20px rgb(255, 255, 255);
+}
+
+.card img{
+  width:100%;
+  height:300px;
+  object-fit:cover;
+  border-radius:12px;
+  margin-bottom:20px;
+}
+
+.card h2{
+  text-align:center;
+  color:#ff3737;
+  margin-bottom:25px;
+}
+
+.card h3{
+  color:#ff1c2f;
+  margin-top:18px;
+  margin-bottom:5px;
+  font-size:18px;
+}
+
+.card p{
+  color:#000000;
+  line-height:1.7;
+  background:#d1c6c6;
+  padding:10px;
+  border-radius:8px;
+}
+
+.btn-box{
+  display:flex;
+  gap:15px;
+  justify-content:center;
+  margin-top:30px;
+}
+
+.btn-box button{
+  padding:12px 20px;
+  border:none;
+  border-radius:8px;
+  background:#f00f0f;
+  color:white;
+  font-size:15px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.btn-box button:hover{
+  background:#0a61b3;
+}
+
+.connect-btn{
+  background:#054886;
+}
+
+.connect-btn:hover{
+  background:#054886;
+}
